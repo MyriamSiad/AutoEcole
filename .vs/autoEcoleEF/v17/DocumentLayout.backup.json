@@ -1,0 +1,48 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmajoutlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmajoutlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmAjoutLecon.cs [Design]",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmAjoutLecon.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmAjoutLecon.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmAjoutLecon.cs [Design]",
+              "RelativeToolTip": "autoEcoleEF\\FrmAjoutLecon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:31:49.415Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
