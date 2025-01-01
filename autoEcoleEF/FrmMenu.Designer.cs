@@ -40,6 +40,7 @@
             this.leçonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visualiserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,15 +74,17 @@
             // elèveToolStripMenuItem
             // 
             this.elèveToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gérerToolStripMenuItem});
+            this.gérerToolStripMenuItem,
+            this.visualiserToolStripMenuItem});
             this.elèveToolStripMenuItem.Name = "elèveToolStripMenuItem";
             this.elèveToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.elèveToolStripMenuItem.Text = "Elève";
+            this.elèveToolStripMenuItem.Click += new System.EventHandler(this.elèveToolStripMenuItem_Click_1);
             // 
             // gérerToolStripMenuItem
             // 
             this.gérerToolStripMenuItem.Name = "gérerToolStripMenuItem";
-            this.gérerToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.gérerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gérerToolStripMenuItem.Text = "Gérer";
             this.gérerToolStripMenuItem.Click += new System.EventHandler(this.gérerToolStripMenuItem_Click);
             // 
@@ -97,14 +100,14 @@
             // gérerToolStripMenuItem1
             // 
             this.gérerToolStripMenuItem1.Name = "gérerToolStripMenuItem1";
-            this.gérerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.gérerToolStripMenuItem1.Size = new System.Drawing.Size(102, 22);
             this.gérerToolStripMenuItem1.Text = "Gérer";
             this.gérerToolStripMenuItem1.Click += new System.EventHandler(this.gérerToolStripMenuItem1_Click);
             // 
             // listeToolStripMenuItem
             // 
             this.listeToolStripMenuItem.Name = "listeToolStripMenuItem";
-            this.listeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listeToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.listeToolStripMenuItem.Text = "Liste";
             this.listeToolStripMenuItem.Click += new System.EventHandler(this.listeToolStripMenuItem_Click);
             // 
@@ -120,16 +123,23 @@
             // ajoutToolStripMenuItem
             // 
             this.ajoutToolStripMenuItem.Name = "ajoutToolStripMenuItem";
-            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.ajoutToolStripMenuItem.Text = "Ajout";
             this.ajoutToolStripMenuItem.Click += new System.EventHandler(this.ajoutToolStripMenuItem_Click);
             // 
             // validerToolStripMenuItem
             // 
             this.validerToolStripMenuItem.Name = "validerToolStripMenuItem";
-            this.validerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.validerToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.validerToolStripMenuItem.Text = "Valider";
             this.validerToolStripMenuItem.Click += new System.EventHandler(this.validerToolStripMenuItem_Click);
+            // 
+            // visualiserToolStripMenuItem
+            // 
+            this.visualiserToolStripMenuItem.Name = "visualiserToolStripMenuItem";
+            this.visualiserToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.visualiserToolStripMenuItem.Text = "Visualiser";
+            this.visualiserToolStripMenuItem.Click += new System.EventHandler(this.visualiserToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -162,6 +172,7 @@
         private System.Windows.Forms.ToolStripMenuItem listeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem validerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem visualiserToolStripMenuItem;
     }
 }
 

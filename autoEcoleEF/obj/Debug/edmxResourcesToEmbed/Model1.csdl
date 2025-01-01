@@ -90,5 +90,11 @@
       <End Role="vehicule" EntitySet="vehicules" />
       <End Role="lecon" EntitySet="lecons" />
     </AssociationSet>
+    <FunctionImport Name="creer_Vehicule">
+      <Parameter Name="p_id" Mode="In" Type="String" />
+      <Parameter Name="p_modele" Mode="In" Type="String" />
+      <Parameter Name="p_couleur" Mode="In" Type="String" />
+      <Parameter Name="p_etat" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
 </Schema>

@@ -36,5 +36,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="creer_Vehicule" FunctionName="AutoEcoleModel.Store.creer_Vehicule" />
   </EntityContainerMapping>
 </Mapping>

@@ -12,6 +12,8 @@ namespace autoEcoleEF
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class AutoEcoleEntities : DbContext
     {
@@ -28,5 +30,26 @@ namespace autoEcoleEF
         public virtual DbSet<eleve> eleves { get; set; }
         public virtual DbSet<lecon> lecons { get; set; }
         public virtual DbSet<vehicule> vehicules { get; set; }
+    
+        public virtual int creer_Vehicule(string p_id, string p_modele, string p_couleur, Nullable<int> p_etat)
+        {
+            var p_idParameter = p_id != null ?
+                new ObjectParameter("p_id", p_id) :
+                new ObjectParameter("p_id", typeof(string));
+    
+            var p_modeleParameter = p_modele != null ?
+                new ObjectParameter("p_modele", p_modele) :
+                new ObjectParameter("p_modele", typeof(string));
+    
+            var p_couleurParameter = p_couleur != null ?
+                new ObjectParameter("p_couleur", p_couleur) :
+                new ObjectParameter("p_couleur", typeof(string));
+    
+            var p_etatParameter = p_etat.HasValue ?
+                new ObjectParameter("p_etat", p_etat) :
+                new ObjectParameter("p_etat", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("creer_Vehicule", p_idParameter, p_modeleParameter, p_couleurParameter, p_etatParameter);
+        }
     }
 }

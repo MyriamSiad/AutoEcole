@@ -68,6 +68,12 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="creer_Vehicule" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="p_id" Type="varchar" Mode="In" />
+    <Parameter Name="p_modele" Type="varchar" Mode="In" />
+    <Parameter Name="p_couleur" Type="varchar" Mode="In" />
+    <Parameter Name="p_etat" Type="int" Mode="In" />
+  </Function>
   <EntityContainer Name="AutoEcoleModelStoreContainer">
     <EntitySet Name="eleve" EntityType="Self.eleve" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="lecon" EntityType="Self.lecon" Schema="dbo" store:Type="Tables" />

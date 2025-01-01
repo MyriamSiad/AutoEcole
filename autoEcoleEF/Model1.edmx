@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="AutoEcoleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="AutoEcoleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="eleve">
           <Key>
             <PropertyRef Name="id" />
@@ -73,6 +73,12 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="creer_Vehicule" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="p_id" Type="varchar" Mode="In" />
+          <Parameter Name="p_modele" Type="varchar" Mode="In" />
+          <Parameter Name="p_couleur" Type="varchar" Mode="In" />
+          <Parameter Name="p_etat" Type="int" Mode="In" />
+        </Function>
         <EntityContainer Name="AutoEcoleModelStoreContainer">
           <EntitySet Name="eleve" EntityType="Self.eleve" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="lecon" EntityType="Self.lecon" Schema="dbo" store:Type="Tables" />
@@ -90,8 +96,7 @@
             <End Role="lecon" EntitySet="lecon" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="AutoEcoleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -185,6 +190,12 @@
             <End Role="vehicule" EntitySet="vehicules" />
             <End Role="lecon" EntitySet="lecons" />
           </AssociationSet>
+          <FunctionImport Name="creer_Vehicule">
+            <Parameter Name="p_id" Mode="In" Type="String" />
+            <Parameter Name="p_modele" Mode="In" Type="String" />
+            <Parameter Name="p_couleur" Mode="In" Type="String" />
+            <Parameter Name="p_etat" Mode="In" Type="Int32" />
+          </FunctionImport>
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
@@ -227,6 +238,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="creer_Vehicule" FunctionName="AutoEcoleModel.Store.creer_Vehicule" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

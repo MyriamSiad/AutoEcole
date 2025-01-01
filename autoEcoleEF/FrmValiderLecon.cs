@@ -27,14 +27,11 @@ namespace autoEcoleEF
                             where l.effectueeOui_Non == 0
                             select l;
 
-            //Chargement du composant de binding lecon par le résultat de la requête 
-            this.bdSVehicule.DataSource = mesDonneeF.vehicules.ToList();
             this.leconBindingSource.DataSource = mesDonneeF.lecons
                 .Where(l => l.effectueeOui_Non == 0) // Filtrage des leçons non effectuées
                 .ToList();
 
-            //Chargement du composant de binding vehicule 
-            this.bdSVehicule.DataSource = mesDonneeF.vehicules.ToList();
+          
 
             //Création d'une colonne de type text pour la date 
             DataGridViewTextBoxColumn txtColonneDate = new DataGridViewTextBoxColumn();
@@ -92,6 +89,16 @@ namespace autoEcoleEF
         {
             this.leconBindingSource.EndEdit();
             this.mesDonneeF.SaveChanges();
+        }
+
+        private void Elève_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNom_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

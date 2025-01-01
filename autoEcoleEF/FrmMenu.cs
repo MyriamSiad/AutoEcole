@@ -72,5 +72,17 @@ namespace autoEcoleEF
             f.Show();
 
         }
+
+        private void elèveToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void visualiserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVisualiserEleve el = new FrmVisualiserEleve(this.mesDonneesEf);
+            el.MdiParent = this;
+            el.Show();
+        }
     }
 }

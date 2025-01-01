@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmvisualisereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoecoleef\\frmvaliderlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmvaliderlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmvaliderlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmvaliderlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmgerervehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmgerervehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmgerervehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmgerervehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmgerereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmgerereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|d:\\bts 2 ann\u00E9e\\semestre 1\\d3\\tp5\\autoecole\\autoecoleef\\frmgerereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmgerereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoecoleef\\frmajoutlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmajoutlecon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoecoleef\\frmvisualisereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmvisualisereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoecoleef\\frmvisualisereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4F0FEB6-6494-47ED-BC84-10036F7BBDE8}|autoEcoleEF\\autoEcoleEF.csproj|solutionrelative:autoecoleef\\frmvisualisereleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,16 +62,113 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmValiderLecon.cs [Design]",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmValiderLecon.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmValiderLecon.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmValiderLecon.cs [Design]",
+              "RelativeToolTip": "autoEcoleEF\\FrmValiderLecon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:02:16.316Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmGererVehicule.cs",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererVehicule.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmGererVehicule.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererVehicule.cs",
+              "RelativeToolTip": "autoEcoleEF\\FrmGererVehicule.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:01:46.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmGererVehicule.cs [Design]",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererVehicule.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmGererVehicule.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererVehicule.cs [Design]",
+              "RelativeToolTip": "autoEcoleEF\\FrmGererVehicule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:01:44.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmGererEleve.cs [Design]",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererEleve.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmGererEleve.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererEleve.cs [Design]",
+              "RelativeToolTip": "autoEcoleEF\\FrmGererEleve.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:01:29.953Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmGererEleve.cs",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererEleve.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmGererEleve.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmGererEleve.cs",
+              "RelativeToolTip": "autoEcoleEF\\FrmGererEleve.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAjwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T14:05:11.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmAjoutLecon.cs",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmAjoutLecon.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmAjoutLecon.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmAjoutLecon.cs",
+              "RelativeToolTip": "autoEcoleEF\\FrmAjoutLecon.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T14:04:44.378Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmValiderLecon.cs",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmValiderLecon.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmValiderLecon.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmValiderLecon.cs",
+              "RelativeToolTip": "autoEcoleEF\\FrmValiderLecon.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:01:14.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmVisualiserEleve.cs [Design]",
+              "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmVisualiserEleve.cs",
+              "RelativeDocumentMoniker": "autoEcoleEF\\FrmVisualiserEleve.cs",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmVisualiserEleve.cs [Design]",
+              "RelativeToolTip": "autoEcoleEF\\FrmVisualiserEleve.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:48:45.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FrmVisualiserEleve.cs",
               "DocumentMoniker": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmVisualiserEleve.cs",
               "RelativeDocumentMoniker": "autoEcoleEF\\FrmVisualiserEleve.cs",
-              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmVisualiserEleve.cs*",
-              "RelativeToolTip": "autoEcoleEF\\FrmVisualiserEleve.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\BTS 2 Ann\u00E9e\\Semestre 1\\D3\\TP5\\AutoEcole\\autoEcoleEF\\FrmVisualiserEleve.cs",
+              "RelativeToolTip": "autoEcoleEF\\FrmVisualiserEleve.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwFMAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:55:21.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T20:55:21.461Z"
             }
           ]
         }
